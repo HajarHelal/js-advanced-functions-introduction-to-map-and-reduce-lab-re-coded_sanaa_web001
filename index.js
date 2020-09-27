@@ -22,3 +22,11 @@ function mapToDouble(sourceArray) {
   }
   return d
 }
+/////////////
+function mapToSquare(sourceArray) {
+  let sq = []
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    sq.push(sourceArray[i] * sourceArray[i])
+  }
+  return sq
+}
