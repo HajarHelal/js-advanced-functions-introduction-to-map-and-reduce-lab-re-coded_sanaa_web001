@@ -14,3 +14,11 @@ function mapToNoChange(sourceArray) {
   }
   return no
 }
+/////////////
+function mapToDouble(sourceArray) {
+  let d = []
+  for (let i = 0; i < sourceArray.length; i++ ) {
+    d.push(sourceArray[i]*2)
+  }
+  return d
+}
